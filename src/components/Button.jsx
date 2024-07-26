@@ -4,7 +4,7 @@ const Button = ({ classname, href, onClick, children, px, white }) => {
   const classes = `button relative inline-flex items-center jusitfy-center h-11 transition-colors hover:text-color-1 ${px || 'px-7'} ${white ? "text-n-8" : "text-n-1"} ${classname || ""}`;
   const spanClasses = 'relative z-10';
   const renderButton = () => (
-    <button className={classes}>
+    <button className={classes} onClick={onClick}>
         <span className={spanClasses}>{children}</span>
         {ButtonSvg(white)}
     </button>
