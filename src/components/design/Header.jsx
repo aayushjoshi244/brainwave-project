@@ -28,7 +28,11 @@ export const BackgroundCircles = () => {
   );
 };
 
+<<<<<<< HEAD
 export const HamburgerMenu = () => {
+=======
+export const HambugerMenu = () => {
+>>>>>>> 70ff497d66e3b7094afd4c86c1955e246862b6ab
   return (
     <div className="absolute inset-0 pointer-events-none lg:hidden">
       <div className="absolute inset-0 opacity-[.03]">
